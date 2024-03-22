@@ -16,7 +16,6 @@ import io.cucumber.java.en.When;
 public class HotelAppLoginTest {
 	
 	WebDriver driver;
-	System.out.println("Jenkins testing");
 	@Given("I want to login into hotel app using valid username as {string}")
 	public void i_want_to_login_into_hotel_app_using_valid_username_as(String string) {
 	    // Write code here that turns the phrase above into concrete actions
